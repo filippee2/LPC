@@ -1,0 +1,36 @@
+@model IEnumerable<trabalhoLPCTentativaNumero2.Models.Cliente>
+
+<a href="/Cliente/Index" class="btn btn-primary">Voltar</a>
+
+<div class="form-horizontal">
+    <form action="Create" method="Post">
+
+        <div class="form-group">
+            <label>Id</label>
+            <input  class="form-control"
+                    type="text" name="id"/>
+        </div>
+
+        <div class="form-group">
+            <label>Nome</label>
+            <input  class="form-control"
+                    type="text" name="nome"/>
+        </div>
+
+        <div class="form-group">
+            <label>Email</label>
+            <input  class="form-control"
+                    type="text" name="email"/>
+        </div>  
+
+        <div class="form-group">
+            <label>Telefone</label>
+            <input  class="form-control"
+                    type="text" name="telefone"/>
+        </div>
+
+        <input  class="btn btn-primary" 
+                type="submit" value="Salvar"/>
+
+    </form>
+</div>

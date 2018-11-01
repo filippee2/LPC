@@ -1,0 +1,26 @@
+@model trabalhoLPCTentativaNumero2.Models.Situacao
+
+<div class="form-horizontal">
+    <form action="Edit" method="Post">  
+        <a href="/Situacao/Index" class="btn btn-primary">Voltar</a>
+
+        <input hidden type="text" name="id" id="id" value="@Model.id"/>
+
+        <div class="form-group">
+            <label>Nome</label>
+            <input  
+                class="form-control"
+                type="text" 
+                name="nome"
+                value="@Model.nome"
+            />
+        </div>
+
+        <input  
+            class="btn btn-primary" 
+            type="submit" 
+            value="Salvar"
+        />
+
+    </form>
+</div>

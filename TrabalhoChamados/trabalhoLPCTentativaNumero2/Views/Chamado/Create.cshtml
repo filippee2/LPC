@@ -1,0 +1,84 @@
+@model IEnumerable<trabalhoLPCTentativaNumero2.Models.Chamado>
+
+
+<div class="form-horizontal">
+    <a href="/Chamado/Index" class="btn btn-primary">Voltar</a>
+    
+    <form action="Create" method="Post">
+
+        <div class="form-group">
+            <label>Id</label>
+            <input  class="form-control"
+                    type="text" name="id"/>
+        </div>
+
+        <div class="form-group">
+            <label>Descrição</label>
+            <input  
+                class="form-control"    
+                type="text"     
+                name="descricao"
+            />
+        </div>
+
+        <div class="form-group">
+            <label>Cliente</label>
+            <select class="form-control" name ="cliente.id">
+                @foreach(var cliente in @ViewBag.clientes)
+                {
+                <option value=@cliente.id>@cliente.nome</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Situação</label>
+            <select class="form-control" name ="situacao.id">
+                @foreach(var situacao in @ViewBag.situacoes)
+                {
+                <option value=@situacao.id>@situacao.nome</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Data</label>
+            <input  
+                class="form-control"
+                type="date" 
+                name="data"
+            />
+        </div>
+
+        <div class="form-group">
+            <label>Hora Inicio</label>
+            <input  
+                class="form-control"
+                type="time" 
+                name="horaInicio"/>
+        </div>
+
+        <div class="form-group">
+            <label>Hora Fim</label>
+            <input  
+                class="form-control"
+                type="time" 
+                name="horaFim"/>
+        </div>
+
+        <div class="form-group">
+            <label>Endereço</label>
+            <input  
+                class="form-control"
+                type="text" 
+                name="address"
+            />
+        </div>  
+
+        <input  
+            class="btn btn-primary" 
+            type="submit" 
+            value="Salvar"
+        />
+    </form>
+</div>
