@@ -1,0 +1,50 @@
+@model IEnumerable<AvaliaçãoG1.Models.Paciente>
+
+
+<div class="container">
+    <br>
+    <a href="/Consulta/Index" class="btn btn-primary">Voltar</a>
+    <a href="/Paciente/Create" class="btn btn-primary">Criar paciente</a>
+    <br>    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Endereço</th>
+                <th>E-mail</th>
+                <th>Telefone</th>
+                <th>Data de nascimento</th>
+                <th>Particular</th>
+                <th>Plano de saúde</th>
+            </tr>
+            </tr>
+        </thead>
+
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.nome</td>
+                <td>@item.endereco</td>
+                <td>@item.email</td>
+                <td>@item.telefone</td>
+                <td>@item.dataNascimento</td>
+                <td>
+                    @if(item.isParticular)
+                        {<p>Sim</p>}
+                    else
+                        {<p>Não</p>}
+                </td>
+                <td>
+                    @if(item.isParticular)
+                        {<p>Particular</p>}
+                    else
+                        {@item.planoSaude.nome}
+                </td>
+                <td><a class="btn btn-danger" href="/Paciente/Delete/@item.id">Delete</a> </td>
+                <td><a class="btn btn-primary" href="/Paciente/Edit/@item.id">Editar</a> </td>
+            </tr>
+        }
+    </table>
+</div>

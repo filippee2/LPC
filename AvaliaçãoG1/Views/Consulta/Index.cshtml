@@ -1,0 +1,55 @@
+@model IEnumerable<AvaliaçãoG1.Models.Consulta>
+
+
+<div class="container">
+    <br>
+    <a href="/Paciente/Index" class="btn btn-primary">Ver pacientes</a>
+    <a href="/PlanoDeSaude/Index" class="btn btn-primary">Ver planos de saúde</a>
+    <a href="/Consulta/Create" class="btn btn-primary">Criar consulta</a>
+    <a href="/Consulta/Index" class="btn btn-primary">Ver todas consultas</a>
+    <br>
+
+    <form action="Index" method="Post">
+        <p>
+            Data: <input type="date" name="searchData" class="form-control">
+            <br>
+            <input type="submit" value="Filtrar" class="btn btn-primary"/>
+        </p>
+    </form>
+
+    <br>    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Paciente</th>
+                <th>Data</th>
+                <th>Hora</th>
+                <th>Descrição</th>
+                <th>Primeira consulta</th>
+                <th>Valor</th>
+            </tr>
+            </tr>
+        </thead>
+
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.paciente.nome</td>
+                <td>@item.data.ToString("dd/MM/yyyy")</td>
+                <td>@item.hora</td>
+                <td>@item.descricao</td>
+                <td>
+                    @if(item.isPrimeira)
+                        {<p>Sim</p>}
+                    else
+                        {<p>Não</p>}
+                </td>
+                <td>@item.valor</td>
+                <td><a class="btn btn-danger" href="/Consulta/Delete/@item.id">Delete</a> </td>
+                <td><a class="btn btn-primary" href="/Consulta/Edit/@item.id">Editar</a> </td>
+            </tr>
+        }
+    </table>
+</div>

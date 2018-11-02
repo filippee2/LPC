@@ -1,0 +1,30 @@
+@model IEnumerable<AvaliaçãoG1.Models.PlanoDeSaude>
+
+
+<div class="container">
+    <br>
+    <a href="/Consulta/Index" class="btn btn-primary">Voltar</a>
+    <a href="/PlanoDeSaude/Create" class="btn btn-primary">Criar plano</a>
+    <br>    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Descrição</th>
+            </tr>
+            </tr>
+        </thead>
+
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.nome</td>
+                <td>@item.descricao</td>
+                <td><a class="btn btn-danger" href="/PlanoDeSaude/Delete/@item.id">Delete</a> </td>
+                <td><a class="btn btn-primary" href="/PlanoDeSaude/Edit/@item.id">Editar</a> </td>
+            </tr>
+        }
+    </table>
+</div>

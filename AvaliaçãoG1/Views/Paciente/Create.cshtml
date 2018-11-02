@@ -1,0 +1,84 @@
+@model IEnumerable<AvaliaçãoG1.Models.Paciente>
+
+<a href="/Paciente/Index" class="btn btn-primary">Voltar</a>
+
+<div class="form-horizontal">
+    <form action="Create" method="Post">
+        <div class="form-group">
+            <label>Id</label>
+            <input  
+                class="form-control"
+                type="text" name="id"/>
+        </div>
+
+        <div class="form-group">
+            <label>Nome</label>
+            <input  
+                class="form-control"    
+                type="text" 
+                name="nome"
+            />
+        </div>
+
+        <div class="form-group">
+            <label>Endereço</label>
+            <input  
+                class="form-control"    
+                type="text" 
+                name="endereco"
+            />
+        </div>
+
+        <div class="form-group">
+            <label>E-mail</label>
+            <input  
+                class="form-control"    
+                type="text" 
+                name="email"
+            />
+        </div>
+
+        <div class="form-group">
+            <label>Telefone</label>
+            <input  
+                class="form-control"    
+                type="text" 
+                name="telefone"
+            />
+        </div>
+        
+        <div class="form-group">
+            <label>Data de nascimento</label>
+            <input  
+                class="form-control"    
+                type="date" 
+                name="dataNascimento"
+            />
+        </div>
+
+        <fieldset data-role="controlgroup" class="form-group">
+            <label>Particular</label>
+            <input type="radio" name="isParticular" id="radio-choice-v-2a" value="true" checked>
+            <br>
+            <Label>Convênio</Label>
+            <input type="radio" name="isParticular" id="radio-choice-v-2b" value="false">
+        </fieldset>
+        
+        <div class="form-group">
+            <label>Plano de saúde</label>
+            <select class="form-control" name ="planoSaude.id">
+                <option value="null">Particular</option>
+                @foreach(var plano in @ViewBag.planos)
+                {
+                <option value=@plano.id>@plano.nome</option>
+                }
+            </select>
+        </div>
+        
+        <input  
+            class="btn btn-primary" 
+            type="submit" 
+            value="Salvar"
+        />
+    </form>
+</div>

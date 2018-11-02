@@ -1,0 +1,83 @@
+@model AvaliaçãoG1.Models.Consulta
+
+<br>
+<a href="/Consulta/Index" class="btn btn-primary">Voltar</a>
+
+<div class="form-horizontal">
+    <form action="Edit" method="Post">  
+
+        <input hidden type="text" name="id" id="id" value="@Model.id"/>
+
+         <div class="row">
+            <div class="form-group col-md-6">
+                <label for="paciente.id">Paciente</label>
+                <select class="form-control" name="paciente.id">
+                    @foreach(var paciente in @ViewBag.pacientes)
+                    {
+                        <!option value=@paciente.id selected="@(paciente.id == @Model.paciente.id)">@paciente.nome</!option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Data</label>
+            @Html.TextBoxFor(m => m.data, "{0:yyyy-MM-dd}", new { type = "date", @class = "form-control", name = "data"})
+        </div>
+
+        <div class="form-group">
+            <label>Data</label>
+            <input  
+                class="form-control"
+                type="time" 
+                name="hora"
+                value="@Model.hora"
+            />
+        </div>
+
+        <div class="form-group">
+            <label>Descrição</label>
+            <input  
+                class="form-control"
+                type="text" 
+                name="descricao"
+                value="@Model.descricao"
+            />
+        </div>
+
+        <div class="form-group">
+            <label>Valor</label>
+            <input  
+                class="form-control"
+                type="number" 
+                name="valor"
+                value="@Model.valor"
+            />
+        </div>
+
+        <fieldset data-role="controlgroup" class="form-group">
+            <label>Primeira consulta</label>
+            <input type="radio" name="isPrimeira" id="primeira" value="true">
+            <br>
+            <Label>Segunda consulta</Label>
+            <input type="radio" name="isPrimeira" id="segunda" value="false">
+        </fieldset>
+
+        <input  
+            class="btn btn-primary" 
+            type="submit" 
+            value="Salvar"
+        />
+
+    </form>
+</div>
+
+<script>
+    let isParticular = '@Model.isPrimeira';
+
+    if(isParticular === "True") {
+        document.getElementById("primeira").checked = true;
+    } else if (isParticular === "False") {
+        document.getElementById("segunda").checked = true;
+    }
+</script>

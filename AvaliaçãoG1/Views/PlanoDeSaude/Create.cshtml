@@ -1,0 +1,38 @@
+@model IEnumerable<AvaliaçãoG1.Models.PlanoDeSaude>
+
+<a href="/PlanoDeSaude/Index" class="btn btn-primary">Voltar</a>
+
+<div class="form-horizontal">
+    <form action="Create" method="Post">
+        <div class="form-group">
+            <label>Id</label>
+            <input  
+                class="form-control"
+                type="text" name="id"/>
+        </div>
+
+        <div class="form-group">
+            <label>Nome</label>
+            <input  
+                class="form-control"    
+                type="text" 
+                name="nome"
+            />
+        </div>
+        
+        <div class="form-group">
+            <label>Descrição</label>
+            <input  
+                class="form-control"    
+                type="text" 
+                name="descricao"
+            />
+        </div>
+        
+        <input  
+            class="btn btn-primary" 
+            type="submit" 
+            value="Salvar"
+        />
+    </form>
+</div>

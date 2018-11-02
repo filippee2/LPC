@@ -1,0 +1,77 @@
+@model IEnumerable<AvaliaçãoG1.Models.Consulta>
+
+<br>
+<a href="/Consulta/Index" class="btn btn-primary">Voltar</a>
+
+<div class="form-horizontal">
+    <form action="Create" method="Post">
+        <div class="form-group">
+            <label>Id</label>
+            <input  
+                class="form-control"
+                type="text" name="id"/>
+        </div>
+
+        <div class="form-group">
+            <label>Paciente</label>
+            <select class="form-control" name ="paciente.id">
+                @foreach(var paciente in @ViewBag.pacientes)
+                {
+                <option value=@paciente.id>@paciente.nome</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Data</label>
+            <input  
+                class="form-control"    
+                type="date" 
+                name="data"
+            />
+        </div>
+
+        <div class="form-group">
+            <label>Hora</label>
+            <input  
+                class="form-control"    
+                type="time" 
+                name="hora"
+            />
+        </div>
+
+        <div class="form-group">
+            <label>Descrição</label>
+            <input  
+                class="form-control"    
+                type="text" 
+                name="descricao"
+            />
+        </div>
+
+        <fieldset data-role="controlgroup" class="form-group">
+            <label>É a primeira?</label>
+            <br>
+            <label>Sim</label>
+            <input type="radio" name="isPrimeira" id="radio-choice-v-2a" value="true" checked>
+            <br>
+            <Label>Não</Label>
+            <input type="radio" name="isPrimeira" id="radio-choice-v-2b" value="false">
+        </fieldset>
+
+        <div class="form-group">
+            <label>Valor</label>
+            <input  
+                class="form-control"    
+                type="number" 
+                name="valor"
+            />
+        </div>
+
+        <input  
+            class="btn btn-primary" 
+            type="submit" 
+            value="Salvar"
+        />
+    </form>
+</div>
