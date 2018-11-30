@@ -1,0 +1,77 @@
+@model Chamados.Domain.Chamado
+
+<div class="form-horizontal">
+    <form action="Edit" method="Post">  
+
+        <input hidden type="text" name="id" id="id" value="@Model.id"/>
+
+        <div class="form-group">
+            <label>Descrição</label>
+            <input  
+                class="form-control"
+                type="text" 
+                name="descricao"
+                value="@Model.descricao"
+            />
+        </div>
+
+         <div class="row">
+            <div class="form-group col-md-6">
+                <label for="cliente.id">Cliente</label>
+                <select class="form-control" name="cliente.id">
+                    @foreach(var cliente in @ViewBag.clientes)
+                    {
+                        <!option value=@cliente.id selected="@(cliente.id == @Model.cliente.id)">@cliente.nome</!option>
+                    }
+                </select>
+            </div>
+        </div>
+
+         <div class="row">
+            <div class="form-group col-md-6">
+                <label for="situacao.id">Situação</label>
+                <select class="form-control" name="situacao.id">
+                    @foreach(var situacao in @ViewBag.situacoes)
+                    {
+                        <!option value=@situacao.id selected="@(situacao.id == @Model.situacao.id)">@situacao.nome</!option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="data">Data</label>
+            <input  class="form-control"
+                    type="text" 
+                    name="data"
+                    value="@Model.data.ToString("dd/MM/yyyy")" readonly>
+        </div>
+
+        <div class="form-group">
+            <label>Hora Inicio</label>
+            <input  
+                class="form-control"
+                type="time" 
+                name="horaInicio"
+                value="@Model.horaInicio" readonly
+            />
+        </div>
+
+        <div class="form-group">
+            <label>Hora Final</label>
+            <input  
+                class="form-control"
+                type="time" 
+                name="horaFim"
+                value="@Model.horaFim"
+            />
+        </div>
+
+        <input  
+            class="btn btn-primary" 
+            type="submit" 
+            value="Salvar"
+        />
+
+    </form>
+</div>

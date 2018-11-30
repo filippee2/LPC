@@ -1,0 +1,43 @@
+@model IEnumerable<Chamados.Domain.Chamado>
+
+
+<div class="container">
+    <br>
+    <a href="/Chamado/Create" class="btn btn-primary">Novo chamado</a>
+    <a href="/Situacao/Index" class="btn btn-primary">Ver situações</a>
+    <a href="/Cliente/Index" class="btn btn-primary">Ver clientes</a>
+    <br>    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Descrição</th>
+                <th>Situação</th>
+                <th>Cliente</th>
+                <th>Telefone</th>
+                <th>Hora início</th>
+                <th>Hora fim</th>
+                <th>Data</th>
+                <th>Tempo duração</th>
+            </tr>
+            </tr>
+        </thead>
+
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.descricao</td>
+                <td>@item.situacao.nome</td>
+                <td>@item.cliente.nome</td>
+                <td>@item.cliente.telefone</td>
+                <td>@item.horaInicio</td>
+                <td>@item.horaFim</td>
+                <td>@item.data</td>
+                <td>@item.tempoDuracao</td>
+                <td><a class="btn btn-danger" href="/Chamado/Delete/@item.id">Delete</a> </td>
+                <td><a class="btn btn-primary" href="/Chamado/Edit/@item.id">Editar</a> </td>
+            </tr>
+        }
+    </table>
+</div>

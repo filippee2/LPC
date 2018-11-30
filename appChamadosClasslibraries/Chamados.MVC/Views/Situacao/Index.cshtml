@@ -1,0 +1,27 @@
+@model IEnumerable<Chamados.Domain.Situacao>
+
+<div class="container">
+    <br>
+    <a href="/Chamado/Index" class="btn btn-primary">Voltar</a>
+    <a href="/Situacao/Create" class="btn btn-primary">Criar situação</a>
+    <br>    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+            </tr>
+            </tr>
+        </thead>
+
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.nome</td>
+                <td><a class="btn btn-danger" href="/Situacao/Delete/@item.id">Delete</a> </td>
+                <td><a class="btn btn-primary" href="/Situacao/Edit/@item.id">Editar</a> </td>
+            </tr>
+        }
+    </table>
+</div>
