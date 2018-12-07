@@ -1,0 +1,15 @@
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.API\bin\Debug\netcoreapp2.0\Associados.API.deps.json
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.API\bin\Debug\netcoreapp2.0\Associados.API.runtimeconfig.json
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.API\bin\Debug\netcoreapp2.0\Associados.API.runtimeconfig.dev.json
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.API\bin\Debug\netcoreapp2.0\Associados.API.dll
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.API\bin\Debug\netcoreapp2.0\Associados.API.pdb
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.API\bin\Debug\netcoreapp2.0\Associados.Domain.dll
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.API\bin\Debug\netcoreapp2.0\Associados.Repositories.dll
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.API\bin\Debug\netcoreapp2.0\Associados.Repositories.pdb
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.API\bin\Debug\netcoreapp2.0\Associados.Domain.pdb
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.API\obj\Debug\netcoreapp2.0\Associados.API.csprojResolveAssemblyReference.cache
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.API\obj\Debug\netcoreapp2.0\Associados.API.csproj.CoreCompileInputs.cache
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.API\obj\Debug\netcoreapp2.0\Associados.API.AssemblyInfoInputs.cache
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.API\obj\Debug\netcoreapp2.0\Associados.API.AssemblyInfo.cs
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.API\obj\Debug\netcoreapp2.0\Associados.API.dll
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.API\obj\Debug\netcoreapp2.0\Associados.API.pdb

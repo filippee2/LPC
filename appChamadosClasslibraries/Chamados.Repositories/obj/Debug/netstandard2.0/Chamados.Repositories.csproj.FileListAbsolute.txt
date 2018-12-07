@@ -9,3 +9,14 @@ C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comerci
 C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\appChamadosClasslibraries\Chamados.Repositories\obj\Debug\netstandard2.0\Chamados.Repositories.AssemblyInfo.cs
 C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\appChamadosClasslibraries\Chamados.Repositories\obj\Debug\netstandard2.0\Chamados.Repositories.dll
 C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\appChamadosClasslibraries\Chamados.Repositories\obj\Debug\netstandard2.0\Chamados.Repositories.pdb
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Repositories\bin\Debug\netstandard2.0\Chamados.Repositories.deps.json
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Repositories\bin\Debug\netstandard2.0\Chamados.Repositories.dll
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Repositories\bin\Debug\netstandard2.0\Chamados.Repositories.pdb
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Repositories\bin\Debug\netstandard2.0\Chamados.Domain.dll
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Repositories\bin\Debug\netstandard2.0\Chamados.Domain.pdb
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Repositories\obj\Debug\netstandard2.0\Chamados.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Repositories\obj\Debug\netstandard2.0\Chamados.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Repositories\obj\Debug\netstandard2.0\Chamados.Repositories.AssemblyInfoInputs.cache
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Repositories\obj\Debug\netstandard2.0\Chamados.Repositories.AssemblyInfo.cs
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Repositories\obj\Debug\netstandard2.0\Chamados.Repositories.dll
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Repositories\obj\Debug\netstandard2.0\Chamados.Repositories.pdb

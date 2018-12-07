@@ -13116,11 +13116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\appChamadosClasslibraries\\Chamados.MVC\\Chamados.MVC.csproj",
+      "projectUniqueName": "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\LPCRepositório\\LPC\\appChamadosClasslibraries\\Chamados.MVC\\Chamados.MVC.csproj",
       "projectName": "Chamados.MVC",
-      "projectPath": "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\appChamadosClasslibraries\\Chamados.MVC\\Chamados.MVC.csproj",
+      "projectPath": "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\LPCRepositório\\LPC\\appChamadosClasslibraries\\Chamados.MVC\\Chamados.MVC.csproj",
       "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\appChamadosClasslibraries\\Chamados.MVC\\obj\\",
+      "outputPath": "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\LPCRepositório\\LPC\\appChamadosClasslibraries\\Chamados.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13137,11 +13137,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\appChamadosClasslibraries\\Chamados.Repositories\\Chamados.Repositories.csproj": {
-              "projectPath": "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\appChamadosClasslibraries\\Chamados.Repositories\\Chamados.Repositories.csproj"
+            "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\LPCRepositório\\LPC\\appChamadosClasslibraries\\Chamados.Repositories\\Chamados.Repositories.csproj": {
+              "projectPath": "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\LPCRepositório\\LPC\\appChamadosClasslibraries\\Chamados.Repositories\\Chamados.Repositories.csproj"
             },
-            "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\appChamadosClasslibraries\\Chamados.Domain\\Chamados.Domain.csproj": {
-              "projectPath": "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\appChamadosClasslibraries\\Chamados.Domain\\Chamados.Domain.csproj"
+            "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\LPCRepositório\\LPC\\appChamadosClasslibraries\\Chamados.Domain\\Chamados.Domain.csproj": {
+              "projectPath": "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\LPCRepositório\\LPC\\appChamadosClasslibraries\\Chamados.Domain\\Chamados.Domain.csproj"
             }
           }
         }

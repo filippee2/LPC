@@ -1,0 +1,8 @@
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.Domain\bin\Debug\netcoreapp2.0\Associados.Domain.deps.json
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.Domain\bin\Debug\netcoreapp2.0\Associados.Domain.dll
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.Domain\bin\Debug\netcoreapp2.0\Associados.Domain.pdb
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.Domain\obj\Debug\netcoreapp2.0\Associados.Domain.csproj.CoreCompileInputs.cache
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.Domain\obj\Debug\netcoreapp2.0\Associados.Domain.AssemblyInfoInputs.cache
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.Domain\obj\Debug\netcoreapp2.0\Associados.Domain.AssemblyInfo.cs
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.Domain\obj\Debug\netcoreapp2.0\Associados.Domain.dll
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\trabalhoAssociados\Associados.Domain\obj\Debug\netcoreapp2.0\Associados.Domain.pdb

@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\appChamadosClasslibraries\\Chamados.Domain\\Chamados.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\LPCRepositório\\LPC\\appChamadosClasslibraries\\Chamados.Domain\\Chamados.Domain.csproj",
       "projectName": "Chamados.Domain",
-      "projectPath": "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\appChamadosClasslibraries\\Chamados.Domain\\Chamados.Domain.csproj",
+      "projectPath": "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\LPCRepositório\\LPC\\appChamadosClasslibraries\\Chamados.Domain\\Chamados.Domain.csproj",
       "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\appChamadosClasslibraries\\Chamados.Domain\\obj\\",
+      "outputPath": "C:\\Users\\filip\\Desktop\\Faculdade\\4º Semestre\\Linguagem de Programação Comercial\\LPCRepositório\\LPC\\appChamadosClasslibraries\\Chamados.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

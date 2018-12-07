@@ -7,3 +7,12 @@ C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comerci
 C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\appChamadosClasslibraries\Chamados.Domain\obj\Debug\netstandard2.0\Chamados.Domain.AssemblyInfo.cs
 C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\appChamadosClasslibraries\Chamados.Domain\obj\Debug\netstandard2.0\Chamados.Domain.dll
 C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\appChamadosClasslibraries\Chamados.Domain\obj\Debug\netstandard2.0\Chamados.Domain.pdb
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Domain\bin\Debug\netstandard2.0\Chamados.Domain.deps.json
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Domain\bin\Debug\netstandard2.0\Chamados.Domain.dll
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Domain\bin\Debug\netstandard2.0\Chamados.Domain.pdb
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Domain\obj\Debug\netstandard2.0\Chamados.Domain.csprojResolveAssemblyReference.cache
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Domain\obj\Debug\netstandard2.0\Chamados.Domain.csproj.CoreCompileInputs.cache
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Domain\obj\Debug\netstandard2.0\Chamados.Domain.AssemblyInfoInputs.cache
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Domain\obj\Debug\netstandard2.0\Chamados.Domain.AssemblyInfo.cs
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Domain\obj\Debug\netstandard2.0\Chamados.Domain.dll
+C:\Users\filip\Desktop\Faculdade\4º Semestre\Linguagem de Programação Comercial\LPCRepositório\LPC\appChamadosClasslibraries\Chamados.Domain\obj\Debug\netstandard2.0\Chamados.Domain.pdb
